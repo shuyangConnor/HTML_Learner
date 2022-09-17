@@ -1,0 +1,282 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #f3f5f7;
+}
+
+.w {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header {
+    height: 42px;
+    margin: 30px auto;
+}
+
+.logo {
+    float: left;
+    height: 42px;
+    width: 198px;
+    background-image: url(./img/logo.png);
+    background-repeat: no-repeat;
+}
+
+.nav {
+    float: left;
+    margin-left: 60px;
+    height: 42px;
+}
+
+.nav ul li {
+    float: left;
+    margin: 0 15px;
+}
+
+.nav ul li a {
+    display: block;
+    padding: 0 10px;
+    height: 42px;
+    line-height: 42px;
+    font-style: 18px;
+    color: #050505;
+}
+
+.nav ul li a:hover {
+    border-bottom: 2px solid #00a4ff;
+    color: #00a4ff;
+}
+
+.search {
+    float: left;
+    margin-left: 70px;
+    width: 412px;
+    height: 42px;
+}
+
+.search input {
+    float: left;
+    height: 40px;
+    width: 344px;
+    border: 1px solid #00a4ff;
+    border-right: 0;
+    font-size: 14px;
+    color: #bfbfbf;
+    padding-left: 15px;
+}
+
+.search button {
+    float: left;
+    width: 50px;
+    height: 42px;
+    border: 0;
+    background-image: url(./img/btn.png);
+}
+
+.header .user {
+    float: right;
+    margin-right: 30px;
+    height: 42px;
+    line-height: 42px;
+    font-size: 14px;
+    color: #666;
+}
+
+.header .user img {
+    float: left;
+    padding: 6px;
+}
+
+.banner {
+    height: 421px;
+    background-color: #1c036c;
+}
+
+.banner .w {
+    height: 421px;
+    background: url(./img/banner2.png) no-repeat top center;
+}
+
+.banner .w .subnav {
+    float: left;
+    width: 190px;
+    height: 421px;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.banner .w .subnav a {
+    display: block;
+    padding: 0 20px;
+    height: 45px;
+    width: 150px;
+    color: white;
+    font-size: 14px;
+    line-height: 45px;
+}
+
+.banner .w .subnav a span {
+    float: right;
+}
+
+.banner .w .subnav a:hover {
+    color: #00a4ff;
+}
+
+.banner .w .course {
+    float: right;
+    margin: 50px 0;
+    height: 300px;
+    width: 230px;
+    background-color: white;
+}
+
+.banner .w .course .title {
+    height: 48px;
+    background-color: #9bceea;
+    color: #fbfeff;
+    font-size: 18px;
+    line-height: 48px;
+    text-align: center;
+}
+
+.banner .w .course .content {
+    padding: 0 20px;
+}
+
+.banner .w .course .content ul li {
+    padding: 14px 0;
+    border-bottom: 1px solid #a5a5a5;
+}
+
+.banner .w .course .content ul li a h4 {
+    font-size: 16px;
+    color: #4e4e4e;
+}
+
+.banner .w .course .content ul li p {
+    font-size: 12px;
+    color: #a5a5a5;
+}
+
+.banner .w .course .all {
+    display: block;
+    margin: 5px 15px;
+    padding: 8.5px 0;
+    text-align: center;
+    color: #0a94e6;
+    font-size: 16px;
+    font-weight: 700;
+    border: 1px solid #0a94e6;
+}
+
+.goods {
+    margin-top: 10px;
+    height: 60px;
+    line-height: 60px;
+    box-shadow: 0 2px 3px 3px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+}
+
+.goods .title {
+    float: left;
+    padding: 0 30px;
+
+
+    color: #42b0fe;
+
+    font-size: 16px;
+}
+
+.goods .content li {
+    float: left;
+}
+
+.goods .content li a {
+    padding: 0 30px;
+    border-left: 1px solid rgb(100, 100, 100);
+    color: black;
+    font-size: 16px;
+}
+
+.goods .modify {
+    float: right;
+    margin-right: 30px;
+}
+
+.goods .modify a {
+    color: #42b0fe;
+    font-size: 14px;
+}
+
+.recommend {
+    margin-top: 30px;
+}
+
+.recommend .head {
+    line-height: 50px;
+    overflow: hidden;
+}
+
+.recommend .head .title {
+    float: left;
+    font-size: 20px;
+    color: #494949;
+    font-weight: normal;
+}
+
+.recommend .head .more {
+    float: right;
+    margin-right: 30px;
+}
+
+.recommend .head .more a {
+    font-size: 12px;
+    color: #a5a5a5;
+}
+
+.recommend .body ul {
+    width: 1225px;
+    /* overflow: hidden; */
+}
+
+.recommend .body li {
+    float: left;
+    margin: 0 15px 15px 0;
+    width: 228px;
+    box-shadow: 0 2px 3px 3px rgba(0, 0, 0, 0.3);
+}
+
+.recommend .body li img {
+    width: 100%;
+}
+
+.recommend .body li .content {
+    padding: 20px 20px 20px 25px;
+}
+
+.recommend .body li .content .title {
+    margin-bottom: 20px;
+    font-size: 14px;
+    color: #050505;
+}
+
+.recommend .body li .content .intro .orange {
+    font-size: 12px;
+    color: #ff7c2d;
+}
+
+.recommend .body li .content .intro .people {
+    font-size: 12px;
+    color: #999;
+}

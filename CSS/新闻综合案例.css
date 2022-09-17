@@ -1,0 +1,24 @@
+p{
+    font: 16px/28px 'Microsoft Yahei';
+}
+
+h1 {
+    text-align: center;
+    font-weight: 400;
+}
+
+.subtitle {
+    text-align: center;
+    color: #888888;
+    font-size: 12px
+}
+
+.paragraph {
+    text-indent: 2em
+}
+
+.footer{
+    color: #888;
+    font-size: 12px;
+    text-indent: 2em
+}
