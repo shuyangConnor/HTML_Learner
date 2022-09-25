@@ -265,14 +265,21 @@ a {
 }
 
 .recommend .body li {
+    position: relative;
     float: left;
     margin: 0 15px 15px 0;
     width: 228px;
     box-shadow: 0 2px 3px 3px rgba(0, 0, 0, 0.3);
 }
 
-.recommend .body li img {
+.recommend .body li img:first-child {
     width: 100%;
+}
+
+.recommend .body li img:nth-child(2) {
+    position: absolute;
+    top: 4px;
+    right: -4px;
 }
 
 .recommend .body li .content {
@@ -297,5 +304,50 @@ a {
 
 .bottom {
     height: 415px;
-    background-color: pink;
+    background-color: #fcfffc;
+}
+
+.footer {
+    padding-top: 35px;
+}
+
+.bottom .left {
+    float: left;
+}
+
+.bottom .right {
+    float: right;
+}
+
+.bottom .left p {
+    margin: 20px 0 15px 0;
+    font-size: 12px;
+    color: #666666;
+}
+
+.bottom .left .download {
+    display: block;
+    width: 118px;
+    height: 33px;
+    line-height: 33px;
+    font-size: 16px;
+    color: #00a4ff;
+    border: 1px solid #00a4ff;
+    text-align: center;
+}
+
+.bottom .right dl {
+    float: left;
+    margin-left: 100px;
+}
+
+.bottom .right dl dt {
+    font-size: 16px;
+    color: #333;
+}
+
+.bottom .right dl dd a {
+    font-size: 12px;
+    color: #333;
+
 }
