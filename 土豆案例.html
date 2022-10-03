@@ -19,31 +19,28 @@
             height: 320px;
         }
 
-        .box>img {
+        .box img {
             width: 444px;
             height: 320px;
         }
 
-        .play {
+        .box::before {
+            content: '';
             position: absolute;
             top: 0;
             left: 0;
             width: 444px;
             height: 320px;
-            background: rgba(0, 0, 0, .4);
-            display: none;
+            visibility: hidden;
+            background: url("image/arr.png") no-repeat center rgba(0, 0, 0, .4);
+            opacity: 0;
+            transition: visibility 0.5s, opacity 0.5s;
         }
 
-        .play img {
-            position: absolute;
-            top: 50%;
-            margin-top: -17px;
-            left: 50%;
-            margin-left: -17px;
-        }
-
-        .box:hover .play {
-            display: block;
+        .box:hover::before {
+            visibility: visible;
+            opacity: 1;
+            cursor: pointer;
         }
     </style>
 </head>
@@ -52,7 +49,6 @@
 
     <div class="box">
         <img src="./image/tudou.jpg">
-        <div class="play"><img src="./image/arr.png"></div>
     </div>
 
 </body>
