@@ -1,0 +1,271 @@
+.main {
+    margin-left: 220px;
+    margin-top: 10px;
+    height: 455px;
+    width: 980px;
+}
+
+.focus {
+    float: left;
+    height: 100%;
+    width: 721px;
+}
+
+.newsflash {
+    float: right;
+    height: 100%;
+    width: 250px;
+}
+
+.news {
+    height: 165px;
+    border: 1px solid #e4e4e4;
+}
+
+.newsflash .news-hd {
+    height: 33px;
+    border-bottom: 1px dotted #e4e4e4;
+    padding: 0 15px;
+    line-height: 33px;
+}
+
+.news-hd h5 {
+    float: left;
+    font-size: 14px;
+}
+
+.news-hd a {
+    float: right;
+
+
+}
+
+.news-hd a::after {
+    display: inline-block;
+    vertical-align: middle;
+    content: "\e920";
+    font-family: "icomoon";
+    font-size: 12px;
+}
+
+.news-bd {
+    padding: 3px 0;
+}
+
+.news-bd ul li {
+    margin-left: 15px;
+    height: 24px;
+    line-height: 24px;
+}
+
+.news-bd ul li a {
+    white-space: nowrap;
+}
+
+.lifeservice {
+    height: 209px;
+    border: 1px solid #e4e4e4;
+    border-top: none;
+    overflow: hidden;
+}
+
+.lifeservice ul {
+    width: 252px;
+
+}
+
+.lifeservice ul li {
+    position: relative;
+    float: left;
+    width: 63px;
+    height: 71px;
+    border-right: 1px solid #e4e4e4;
+    border-bottom: 1px solid #e4e4e4;
+    text-align: center;
+    line-height: 1.2;
+}
+
+.lifeservice ul li i {
+    margin-top: 12px;
+    display: inline-block;
+    width: 20px;
+    height: 28px;
+    background: url('../images/icons.png') no-repeat -19px -15px;
+}
+
+.lifeservice ul li .discount {
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 18px;
+    width: 15px;
+    background-color: green;
+}
+
+.lifeservice ul li .discount::after {
+    content: "";
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    height: 0px;
+    width: 0px;
+    border-style: solid;
+    border-color: transparent transparent white transparent;
+    border-width: 3px 7.5px;
+}
+
+.lifeservice ul li .discount::before {
+    position: absolute;
+    top: 1px;
+    right: 2.3px;
+    content: "\e93a";
+    font-family: 'icomoon';
+    font-size: 8px;
+    color: white;
+}
+
+.bargain {
+    margin-top: 5px;
+}
+
+.recom {
+    margin-top: 10px;
+    height: 163px;
+    background-color: #ebebeb;
+}
+
+.recom-hd {
+    float: left;
+    height: 100%;
+    width: 205px;
+    background: url('../images/recom.png') no-repeat #5b524f center;
+}
+
+.recom-bd {
+    float: left;
+    width: 995px;
+}
+
+.recom-bd ul {
+    width: 1000px;
+}
+
+.recom-bd ul li {
+    float: left;
+    position: relative;
+}
+
+.recom-bd ul li img {
+    width: 248px;
+    height: 163px;
+}
+
+.recom-bd ul li::after {
+    position: absolute;
+    top: 9px;
+    right: 0;
+    content: "";
+    height: 145px;
+    width: 0;
+    border-left: 1px solid #dddddd;
+}
+
+.recom-bd ul li:last-child::after {
+    display: none;
+}
+
+.floor .w {
+    margin-top: 30px;
+}
+
+.furniture .box_hd {
+    height: 30px;
+    border-bottom: 2px solid #b83047;
+}
+
+.furniture .box_hd h3 {
+    float: left;
+    font-size: 18px;
+    color: #b83047;
+    font-weight: 400;
+}
+
+.furniture .box_hd .tab-list {
+    float: right;
+    line-height: 30px;
+}
+
+.furniture .box_hd .tab-list ul li {
+    float: left;
+    position: relative;
+}
+
+.furniture .box_hd .tab-list ul li a {
+    margin: 0 15px;
+}
+
+.furniture .box_hd .tab-list ul li::after {
+    position: absolute;
+    right: 0;
+    top: 10px;
+    content: "";
+    background-color: black;
+    height: 10px;
+    width: 1px;
+}
+
+.furniture .box_hd .tab-list ul li:last-child:after {
+    display: none;
+}
+
+.furniture .box_bd {
+    height: 361px;
+    background-color: #fcfffc;
+
+}
+
+.furniture .box_bd .tab_list_item>div {
+    float: left;
+    height: 361px;
+}
+
+.col_210 {
+    width: 210px;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+.col_210 ul {
+    padding: 0 12px;
+}
+
+.col_210 ul li {
+    float: left;
+    height: 34px;
+    width: 85px;
+    line-height: 34px;
+    border-bottom: 1px solid #000;
+
+}
+
+.col_210 ul li:nth-child(2n-1) {
+    margin-right: 10px;
+}
+
+.col_329 {
+    width: 329px;
+}
+
+.col_221 {
+    width: 221px;
+    border-right: 1px solid #ccc;
+}
+
+.col_219 {
+    width: 219px;
+}
+
+.bb {
+    display: block;
+    border-bottom: 1px solid #ccc;
+}
