@@ -41,7 +41,6 @@
 }
 
 .news-hd a::after {
-    display: inline-block;
     vertical-align: middle;
     content: "\e920";
     font-family: "icomoon";

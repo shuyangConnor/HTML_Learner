@@ -52,7 +52,6 @@
 }
 
 .arrow-icon::after {
-    display: inline-block;
     vertical-align: middle;
     content: '\e91e';
     font-family: 'icomoon';
@@ -67,8 +66,8 @@
 .logo {
     position: absolute;
     top: 25px;
-    width: 171px;
     height: 61px;
+    width: 171px;
 }
 
 .logo h1 a {
@@ -135,7 +134,6 @@
 }
 
 .cart::after {
-    display: inline-block;
     vertical-align: middle;
     content: "\e920";
     font-family: 'icomoon';
